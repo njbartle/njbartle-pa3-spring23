@@ -11,7 +11,7 @@ namespace api.Models
     {
         public void InsertSong(Song value)
         {
-            string cs = ______________;
+            string cs = @"C:\Users\Owner\Desktop\MIS321\PAs\pa3\njbartle-pa3-spring23\webproject\api\song.db";
             using var con = new SQLiteConnection(cs);
             con.open();
             using var cmd = new SQLiteCommand(stm, con);
